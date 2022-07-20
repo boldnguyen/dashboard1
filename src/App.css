@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.dark {
+  background: url(/public/skyatnight.jpg);
+}
+.darkbutton{
+  border: none;
+  font-weight:600;
+  border-radius: 20px;
+}
+.dark div{
+  color:white;
+}
