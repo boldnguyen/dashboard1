@@ -14,6 +14,8 @@ import Messages from "./pages/messages/Messages";
 import Feedback from "./pages/feedback/Feedback";
 import Radar from "./pages/radar/Radar";
 import Sales from "./pages/sales/Sales";
+import Analytics from "./pages/analytics/Analytics";
+import NewProduct from "./pages/newproduct/NewProduct";
 function App() {
   const [darkMode, setDarkMode] = React.useState(false);
 
@@ -66,7 +68,7 @@ function App() {
             <Route path="/product/:productId" element={<Product />} />
           </Routes>
           <Routes>
-            <Route path="/newproduct" element={<NewUser />} />
+            <Route path="/newproduct" element={<NewProduct />} />
           </Routes>
           <Routes>
             <Route path="/messages" element={<Messages />} />
@@ -80,6 +82,10 @@ function App() {
           <Routes>
             <Route path="/sales" element={<Sales/>} />
           </Routes>
+          <Routes>
+            <Route path="/analytics" element={<Analytics/>} />
+          </Routes>
+          
         </div>
       </div>
     </Router>

@@ -27,10 +27,11 @@ export default function Sidebar() {
               Home
             </li>
             </Link>
+            <Link to="/analytics" className="link">
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
-            </li>
+            </li></Link>
             <Link to="/sales" className="link">
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
